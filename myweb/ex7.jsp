@@ -19,7 +19,7 @@ strPerson[2][2] = "부장";
 strPerson[3][2] = "사원";
 %>
 
-<table>
+<table border="1">
 <% for(String[] person : strPerson) { %>
 <tr>
 	<% for(String part : person) { %>
